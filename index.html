@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alanya Günlük & Aylık Kiralık Daireler | 3+1 2+1 1+1 Apart Evler</title>
+    <meta name="description" content="Alanya'da günlük ve aylık kiralık ev mi arıyorsunuz? Kleopatra, Damlataş, Oba ve Mahmutlar'da 1+1, 2+1, 3+1 havuzlu apart daireler. Hemen bizi arayın veya WhatsApp'tan ulaşın.">
+    <meta name="keywords" content="alanya günlük kiralık, alanya aylık kiralık, alanya apart evler, alanya 1+1 kiralık, alanya 2+1 kiralık, alanya 3+1 daire, kleopatra plajı kiralık ev">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Remix Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-badge">ALANYA</span>
+                <span>KİRALIK DAİRELER</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#anabaslik" class="active">Ana Sayfa</a></li>
+                    <li><a href="#ilanlar">Kiralık İlanlar</a></li>
+                    <li><a href="#hakkimizda">Neden Biz?</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-contact-btns">
+                <a href="tel:+905327894512" class="btn-header-call">
+                    <i class="ri-phone-fill"></i> +90 532 789 45 12
+                </a>
+                <a href="https://wa.me/905327894512?text=Merhaba,%20Alanya%20kiralık%20daireler%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="btn-header-wp">
+                    <i class="ri-whatsapp-line"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="anabaslik">
+        <div class="hero-content">
+            <div class="hero-tag">
+                <i class="ri-map-pin-fill"></i> ALANYA İÇİN TAMAMEN UYGUN GÜNLÜK & AYLIK DAİRELER
+            </div>
+            
+            <h1>Günlük Kiralık Ev mi Arıyorsunuz?<br><span>3+1, 2+1, 1+1 Apart Daireler Bizi Arayın!</span></h1>
+            
+            <p class="hero-subtitle">
+                Alanya'nın en güzel konumlarında; Kleopatra Plajı, Damlataş, Oba ve Mahmutlar'da denize sıfır, havuzlu, full eşyalı konforlu apart daireler. Günlük veya aylık kiralamada en iyi fiyat garantisi!
+            </p>
+
+            <div class="hero-cta-group">
+                <a href="https://wa.me/905327894512?text=Merhaba,%20Alanya'da%20günlük/aylık%20kiralık%20ev%20arıyorum,%20bana%20uygun%20dairelerinizi%20gönderir%20misiniz?" target="_blank" class="hero-btn-wp">
+                    <i class="ri-whatsapp-line" style="font-size: 1.4rem;"></i> WhatsApp'tan Yazın (Anında Cevap)
+                </a>
+                <a href="tel:+905327894512" class="hero-btn-call">
+                    <i class="ri-phone-fill" style="font-size: 1.4rem;"></i> Bizi Arayın: 0532 789 45 12
+                </a>
+            </div>
+
+            <!-- Search & Filter Bar -->
+            <div class="search-filter-card">
+                <form id="searchFilterForm" class="filter-grid">
+                    <div class="filter-item">
+                        <label><i class="ri-calendar-check-line"></i> Kiralama Türü</label>
+                        <select id="filterRentalType">
+                            <option value="all">Tüm Kiralama Tipleri</option>
+                            <option value="daily">Günlük Kiralık</option>
+                            <option value="monthly">Aylık Kiralık</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-item">
+                        <label><i class="ri-hotel-bed-line"></i> Oda Tipi</label>
+                        <select id="filterRoomType">
+                            <option value="all">Tüm Odalar (1+1, 2+1, 3+1)</option>
+                            <option value="1+1">1+1 Apart Daire</option>
+                            <option value="2+1">2+1 Lüks Daire</option>
+                            <option value="3+1">3+1 Geniş Daire / Penthouse</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-item">
+                        <label><i class="ri-map-pin-line"></i> Alanya Bölgesi</label>
+                        <input type="text" id="filterLocation" placeholder="Örn: Kleopatra, Damlataş, Oba...">
+                    </div>
+
+                    <div class="filter-item">
+                        <label><i class="ri-money-dollar-circle-line"></i> Max Günlük Fiyat (TL)</label>
+                        <input type="number" id="filterMaxPrice" placeholder="Örn: 3000">
+                    </div>
+
+                    <button type="submit" class="btn-filter-search" style="grid-column: span 1;">
+                        <i class="ri-search-2-line"></i> İlan Ara
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Pills Bar -->
+    <section class="categories-bar">
+        <div class="section-title">
+            <h2>Alanya Kiralık Gayrimenkul İlanları</h2>
+            <p id="listingCount">Yükleniyor...</p>
+        </div>
+
+        <div class="category-pills">
+            <button class="pill-btn active" data-category="all">Tüm İlanlar</button>
+            <button class="pill-btn" data-category="daily">🔥 Günlük Kiralık</button>
+            <button class="pill-btn" data-category="monthly">📅 Aylık Kiralık</button>
+            <button class="pill-btn" data-category="1+1">1+1 Daireler</button>
+            <button class="pill-btn" data-category="2+1">2+1 Daireler</button>
+            <button class="pill-btn" data-category="3+1">3+1 Daireler</button>
+        </div>
+    </section>
+
+    <!-- Property Listings Grid -->
+    <section class="listings-section" id="ilanlar">
+        <div class="listings-grid" id="propertiesGrid">
+            <!-- Dynamic JS Output -->
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner" id="iletisim">
+        <div class="cta-box">
+            <div class="cta-box-overlay"></div>
+            <div class="cta-box-content">
+                <h2>Alanya'da Hayalinizdeki Kiralık Evi Bulalım!</h2>
+                <p>3+1, 2+1 ve 1+1 full eşyalı, havuzlu ve denize yakın apartlar için tek tıkla bizimle iletişime geçin. İster günlük tatiliniz için ister uzun dönem konaklama için bizi hemen arayın.</p>
+                
+                <div class="cta-contact-buttons">
+                    <a href="tel:+905327894512" class="hero-btn-call">
+                        <i class="ri-phone-fill"></i> Hemen Ara: +90 532 789 45 12
+                    </a>
+                    <a href="https://wa.me/905327894512?text=Merhaba,%20Alanya'da%20kiralık%20daire%20aroyorum." target="_blank" class="hero-btn-wp">
+                        <i class="ri-whatsapp-line"></i> WhatsApp'tan Mesaj Atın
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us-section" id="hakkimizda">
+        <div class="why-grid">
+            <div class="why-card">
+                <div class="why-icon"><i class="ri-shield-check-fill"></i></div>
+                <h3>Temiz & Güvenilir Konaklama</h3>
+                <p>Tüm evlerimiz her misafir öncesi profesyonel ekiplerce dezenfekte edilip detaylı temizlenmektedir.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon"><i class="ri-map-pin-user-fill"></i></div>
+                <h3>Merkezi & Denize Yakın</h3>
+                <p>Kleopatra ve Damlataş plajlarına yürüme mesafesinde, havuzlu ve güvenlikli siteler.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon"><i class="ri-customer-service-2-fill"></i></div>
+                <h3>7/24 Kesintisiz Destek</h3>
+                <p>Konaklamanız boyunca tüm istek ve ihtiyaçlarınız için telefon ve WhatsApp hattımız 7/24 hizmetinizde.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Detail Modal -->
+    <div class="modal-overlay" id="propertyModal">
+        <div class="modal-card" id="modalContentContainer">
+            <!-- Modal JS content -->
+        </div>
+    </div>
+
+    <!-- Floating Contact Bar (Mobile & Desktop Floating Access) -->
+    <div class="floating-contact-bar">
+        <a href="https://wa.me/905327894512?text=Merhaba,%20Alanya%20günlük/aylık%20kiralık%20daireleriniz%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="floating-btn-wp">
+            <i class="ri-whatsapp-line"></i> WhatsApp'tan Yazın
+        </a>
+        <a href="tel:+905327894512" class="floating-btn-call">
+            <i class="ri-phone-fill"></i> Bizi Arayın
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Alanya Kiralık Ev & Apart Hizmetleri</h3>
+                <p>Alanya'da 1+1, 2+1, 3+1 günlük kiralık apart ve aylık rezidans çözümleri. Tatilinizin veya konaklamanızın en konforlu adresi.</p>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 0.8rem;">Popüler Bölgeler</h4>
+                <p>• Kleopatra Plajı Daireleri</p>
+                <p>• Damlataş Günlük Apartlar</p>
+                <p>• Oba Lüks Rezidanslar</p>
+                <p>• Mahmutlar Denize Sıfır Evler</p>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 0.8rem;">İletişim Bilgileri</h4>
+                <p><i class="ri-phone-fill"></i> Telefon: +90 532 789 45 12</p>
+                <p><i class="ri-whatsapp-line"></i> WhatsApp: +90 532 789 45 12</p>
+                <p><i class="ri-map-pin-line"></i> Konum: Alanya / Antalya, Türkiye</p>
+            </div>
+        </div>
+        <p>&copy; 2026 Alanya Kiralık Evler & Emlak Hizmetleri. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/properties.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
