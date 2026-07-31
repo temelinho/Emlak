@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="google-site-verification" content="c1DW3kMxb6h-3K3BEMbT3NdRw5FJ-w46_bW-cX4mu7A" />
     
     <!-- SEO Primary Meta Tags -->
     <title>Alanya Günlük ve Aylık Kiralık Evler | 3+1, 2+1, 1+1 Apart ve Daireler</title>
@@ -10,7 +11,26 @@
     <meta name="keywords" content="alanya günlük kiralık ev, alanya aylık kiralık daire, alanya apart evler, alanya 1+1 kiralık, alanya 2+1 kiralık daire, alanya 3+1 kiralık, kleopatra plajı kiralık daire, damlataş kiralık ev, alanyakiralikev.com.tr">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://alanyakiralikev.com.tr/">
-    
+
+    <!-- hreflang: her dil için ayrı sürüm (Google arama sonuçlarında kullanıcının dilinde çıkması için) -->
+    <link rel="alternate" hreflang="tr" href="https://alanyakiralikev.com.tr/">
+    <link rel="alternate" hreflang="en" href="https://alanyakiralikev.com.tr/en/">
+    <link rel="alternate" hreflang="ru" href="https://alanyakiralikev.com.tr/ru/">
+    <link rel="alternate" hreflang="de" href="https://alanyakiralikev.com.tr/de/">
+    <link rel="alternate" hreflang="x-default" href="https://alanyakiralikev.com.tr/">
+
+    <!-- İlk ziyarette tarayıcı diline göre yönlendirme (manuel seçim hatırlanır) -->
+    <script>
+    (function () {
+        try {
+            var saved = localStorage.getItem('alanya_lang');
+            var lang = saved || (navigator.language || 'tr').slice(0, 2).toLowerCase();
+            var map = { en: 'en/', ru: 'ru/', de: 'de/' };
+            if (!saved && map[lang]) { location.replace(map[lang]); }
+        } catch (e) {}
+    })();
+    </script>
+
     <!-- Theme & Mobile PWA Specs -->
     <meta name="theme-color" content="#0f172a">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -23,6 +43,10 @@
     <meta property="og:description" content="Günlük ve Aylık kiralık ev mi arıyorsunuz? Alanya'da 3+1, 2+1, 1+1 full eşyalı havuzlu apart ve daireler. Hemen arayın veya WhatsApp'tan yazın.">
     <meta property="og:image" content="https://alanyakiralikev.com.tr/images/img1.jpg">
     <meta property="og:site_name" content="Alanya Kiralık Evler">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:locale:alternate" content="en_GB">
+    <meta property="og:locale:alternate" content="ru_RU">
+    <meta property="og:locale:alternate" content="de_DE">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -73,14 +97,59 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/images/icon-192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+                {
+                      "@type": "Question",
+                      "name": "Alanya'da günlük kiralık daire fiyatları ne kadar?",
+                      "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Günlük kiralık daire fiyatları konuma, oda sayısına ve sezona göre değişir. 1+1 dairelerde günlük 1.500 ₺'den başlayan, deniz manzaralı ve havuzlu lüks seçeneklerde artan fiyatlarımız mevcuttur. Güncel fiyat için bize ulaşın."
+                      }
+                },
+                {
+                      "@type": "Question",
+                      "name": "Kiralık daireler eşyalı mı?",
+                      "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Evet, tüm günlük ve aylık kiralık dairelerimiz full eşyalıdır. Klima, Wi-Fi, televizyon, çamaşır makinesi ve komple mutfak gereçleri dahildir; valizinizi alıp gelmeniz yeterlidir."
+                      }
+                },
+                {
+                      "@type": "Question",
+                      "name": "Denize yakın veya denize sıfır daire var mı?",
+                      "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Evet. Kleopatra Plajı'nda denize 50 metre, Mahmutlar'da ise denize sıfır konumda daireler sunuyoruz. Konuma göre plaja yürüme mesafesi ilan detayında belirtilmiştir."
+                      }
+                },
+                {
+                      "@type": "Question",
+                      "name": "Rezervasyon nasıl yapılır?",
+                      "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Beğendiğiniz ilanın kodunu belirterek 0534 350 36 30 numaralı telefondan arayabilir veya WhatsApp'tan yazabilirsiniz. Müsaitlik durumunu ve tüm koşulları hızlıca netleştiririz."
+                      }
+                }
+          ]
+    }
+    </script>
 </head>
 <body>
 
     <!-- Standard Mobile Header Bar -->
     <header class="header">
         <div class="header-container">
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
                 <span class="logo-badge">ALANYA</span>
                 <span>KİRALIK DAİRELER</span>
             </a>
@@ -92,13 +161,23 @@
                 <a href="#iletisim">İletişim</a>
             </nav>
 
-            <!-- Sadece Arama/Telefon Butonu (WP kaldırıldı) -->
-            <div class="header-contact-btns">
-                <a href="tel:+905343503630" class="btn-header-call">
-                    <i class="ri-phone-fill"></i> 0534 350 36 30
+            <!-- Dil değiştirici + Arama/Telefon Butonu -->
+            <div class="header-right">
+                <div class="lang-dropdown" id="langSwitcher">
+                    <button type="button" class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false" aria-label="Dil / Language">
+                        <i class="ri-global-line"></i><span class="lang-current">TR</span><i class="ri-arrow-down-s-line lang-caret"></i>
+                    </button>
+                    <div class="lang-menu" id="langMenu" role="menu">
+                        <button data-lang="tr"><span class="code">TR</span> Türkçe</button>
+                        <button data-lang="en"><span class="code">EN</span> English</button>
+                        <button data-lang="ru"><span class="code">RU</span> Русский</button>
+                        <button data-lang="de"><span class="code">DE</span> Deutsch</button>
+                    </div>
+                </div>
+                <a href="tel:+905343503630" class="btn-header-call" aria-label="Ara / Call: 0534 350 36 30" title="0534 350 36 30">
+                    <i class="ri-phone-fill"></i>
                 </a>
             </div>
-        </div>
     </header>
 
     <!-- Ultra Simple & Clean Hero Section -->
@@ -157,6 +236,32 @@
         </a>
     </nav>
 
+    <!-- SEO İçerik & SSS -->
+    <section class="seo-content">
+        <h2>Alanya'da Günlük ve Aylık Kiralık Ev Rehberi</h2>
+        <p>Alanya'nın en gözde bölgelerinde günlük ve aylık kiralık daire arayanlar için geniş bir portföy sunuyoruz. Kleopatra Plajı, Damlataş, Oba, Mahmutlar ve Kestel'de 1+1, 2+1 ve 3+1 full eşyalı apart ve daireler; havuzlu siteler, denize yakın konumlar ve merkezi seçeneklerle tatilinize ya da uzun konaklamanıza uygun evi kolayca bulabilirsiniz.</p>
+        <p>Tüm dairelerimiz klima, Wi-Fi, mutfak gereçleri ve temel ev eşyalarıyla eksiksiz teslim edilir. Günlük, haftalık, aylık ve sezonluk kiralama için WhatsApp veya telefon ile hızlıca rezervasyon yapabilir, müsaitlik ve fiyat bilgisi alabilirsiniz.</p>
+        <div class="seo-faq">
+            <h3>Sıkça Sorulan Sorular</h3>
+            <details>
+                <summary>Alanya'da günlük kiralık daire fiyatları ne kadar?</summary>
+                <p>Günlük kiralık daire fiyatları konuma, oda sayısına ve sezona göre değişir. 1+1 dairelerde günlük 1.500 ₺'den başlayan, deniz manzaralı ve havuzlu lüks seçeneklerde artan fiyatlarımız mevcuttur. Güncel fiyat için bize ulaşın.</p>
+            </details>
+            <details>
+                <summary>Kiralık daireler eşyalı mı?</summary>
+                <p>Evet, tüm günlük ve aylık kiralık dairelerimiz full eşyalıdır. Klima, Wi-Fi, televizyon, çamaşır makinesi ve komple mutfak gereçleri dahildir; valizinizi alıp gelmeniz yeterlidir.</p>
+            </details>
+            <details>
+                <summary>Denize yakın veya denize sıfır daire var mı?</summary>
+                <p>Evet. Kleopatra Plajı'nda denize 50 metre, Mahmutlar'da ise denize sıfır konumda daireler sunuyoruz. Konuma göre plaja yürüme mesafesi ilan detayında belirtilmiştir.</p>
+            </details>
+            <details>
+                <summary>Rezervasyon nasıl yapılır?</summary>
+                <p>Beğendiğiniz ilanın kodunu belirterek 0534 350 36 30 numaralı telefondan arayabilir veya WhatsApp'tan yazabilirsiniz. Müsaitlik durumunu ve tüm koşulları hızlıca netleştiririz.</p>
+            </details>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer" id="iletisim">
         <h3 style="font-weight: 800; color: #fff; margin-bottom: 0.5rem;">Alanya Günlük ve Aylık Kiralık Evler</h3>
@@ -169,7 +274,9 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="js/properties.js"></script>
-    <script src="js/app.js"></script>
+    <script defer src="/js/properties.js"></script>
+    <script defer src="/js/i18n.js"></script>
+    <script defer src="/js/app.js"></script>
+    <script defer src="/js/lang.js"></script>
 </body>
 </html>
