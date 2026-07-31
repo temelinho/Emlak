@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alanyakiralikev.com.tr/sitemap.xml

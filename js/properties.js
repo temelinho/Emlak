@@ -1,15 +1,15 @@
-const DEFAULT_PHONE = "+90 532 789 45 12";
-const DEFAULT_WHATSAPP = "905327894512";
+const DEFAULT_PHONE = "+90 534 350 36 30";
+const DEFAULT_WHATSAPP = "905343503630";
 
 const PROPERTIES = [
     {
         id: "ALN-101",
-        title: "Kleopatra Plajı'na 50m Lüks 2+1 Günlük/Aylık Kiralık Daire",
-        rentalType: "daily", // daily or monthly or both
+        title: "Kleopatra Plajı'na 50m Lüks 2+1 Günlük ve Aylık Kiralık Daire",
+        rentalType: "daily",
         rentalTypeBadge: "Günlük / Aylık",
         roomType: "2+1",
-        priceDaily: 2500, // TL / gün
-        priceMonthly: 45000, // TL / ay
+        priceDaily: 2500,
+        priceMonthly: 45000,
         location: "Alanya Kleopatra Plajı",
         distanceToSea: "50 Metre",
         capacity: "4-5 Kişilik",
@@ -42,7 +42,7 @@ const PROPERTIES = [
     },
     {
         id: "ALN-103",
-        title: "Oba Bölgesinde Site İçi Açık Havuzlu 3+1 Lüks Aylık Kiralık",
+        title: "Oba Bölgesinde Site İçi Açık Havuzlu 3+1 Lüks Aylık Kiralık Daire",
         rentalType: "monthly",
         rentalTypeBadge: "Aylık Kiralık",
         roomType: "3+1",
@@ -61,7 +61,7 @@ const PROPERTIES = [
     },
     {
         id: "ALN-104",
-        title: "Kalesi & Deniz Manzaralı 3+1 Penthouse Dubleks Daire",
+        title: "Kalesi & Deniz Manzaralı 3+1 Penthouse Dubleks Apart",
         rentalType: "daily",
         rentalTypeBadge: "Günlük / Aylık VIP",
         roomType: "3+1",
@@ -80,7 +80,7 @@ const PROPERTIES = [
     },
     {
         id: "ALN-105",
-        title: "Mahmutlar Sahilde Denize Sıfır 1+1 Günlük Apart",
+        title: "Mahmutlar Sahilde Denize Sıfır 1+1 Günlük ve Aylık Apart",
         rentalType: "daily",
         rentalTypeBadge: "Günlük Kiralık",
         roomType: "1+1",
