@@ -9,7 +9,7 @@ const DEFAULT_WHATSAPP = "905343503630";
 const PROPERTIES = [
     {
         id: "ALN-101",
-        rentalType: "daily",
+        rentalType: "monthly",
         roomType: "2+1",
         priceDaily: 2500,
         priceMonthly: 45000,
@@ -20,50 +20,50 @@ const PROPERTIES = [
         featured: true,
         i18n: {
             tr: {
-                title: "Kleopatra Plajı'na 50m Lüks 2+1 Günlük ve Aylık Kiralık Daire",
-                rentalTypeBadge: "Günlük / Aylık",
+                title: "Kleopatra Plajı'na 50m Lüks 2+1 Aylık Kiralık Daire",
+                rentalTypeBadge: "Aylık Kiralık",
                 location: "Alanya Kleopatra Plajı",
                 distanceToSea: "50 Metre",
                 capacity: "4-5 Kişilik",
                 badge: "Süper Konum",
                 features: ["Havuz", "Wi-Fi", "Klima", "Deniz Manzarası", "Balkon", "Asansör", "Full Eşyalı", "7/24 Güvenlik"],
-                description: "Alanya Kleopatra Plajı'na sadece 50 metre mesafede, büyüleyici deniz ve Alanya Kalesi manzaralı ultra lüks 2+1 apart daire. Tüm ev gereçleri, klima, yüksek hızlı fiber internet ve havuz imkanı mevcuttur. Günlük ve aylık kiralamaya uygundur."
+                description: "Alanya Kleopatra Plajı'na sadece 50 metre mesafede, büyüleyici deniz ve Alanya Kalesi manzaralı ultra lüks 2+1 apart daire. Tüm ev gereçleri, klima, yüksek hızlı fiber internet ve havuz imkanı mevcuttur. Aylık kiralamaya uygundur."
             },
             en: {
-                title: "Luxury 2+1 Daily & Monthly Rental Apartment 50m to Cleopatra Beach",
-                rentalTypeBadge: "Daily / Monthly",
+                title: "Luxury 2+1 Monthly Rental Apartment 50m to Cleopatra Beach",
+                rentalTypeBadge: "Monthly Rental",
                 location: "Cleopatra Beach, Alanya",
                 distanceToSea: "50 m",
                 capacity: "4-5 Guests",
                 badge: "Prime Location",
                 features: ["Pool", "Wi-Fi", "A/C", "Sea View", "Balcony", "Elevator", "Fully Furnished", "24/7 Security"],
-                description: "Ultra-luxury 2+1 apartment just 50 meters from Cleopatra Beach, with mesmerizing sea and Alanya Castle views. Fully equipped kitchen, air conditioning, high-speed fiber internet and pool access. Suitable for daily and monthly rental."
+                description: "Ultra-luxury 2+1 apartment just 50 meters from Cleopatra Beach, with mesmerizing sea and Alanya Castle views. Fully equipped kitchen, air conditioning, high-speed fiber internet and pool access. Suitable for monthly rental."
             },
             ru: {
-                title: "Люкс 2+1 в 50 м от пляжа Клеопатры — посуточная и помесячная аренда",
-                rentalTypeBadge: "Посуточно / Помесячно",
+                title: "Люкс 2+1 в 50 м от пляжа Клеопатры — помесячная аренда",
+                rentalTypeBadge: "Помесячная аренда",
                 location: "Пляж Клеопатры, Аланья",
                 distanceToSea: "50 м",
                 capacity: "4-5 гостей",
                 badge: "Отличное расположение",
                 features: ["Бассейн", "Wi-Fi", "Кондиционер", "Вид на море", "Балкон", "Лифт", "Полностью меблировано", "Охрана 24/7"],
-                description: "Ультра-роскошные апартаменты 2+1 всего в 50 метрах от пляжа Клеопатры с завораживающим видом на море и крепость Аланьи. Полностью оборудованная кухня, кондиционер, высокоскоростной интернет и бассейн. Подходит для посуточной и помесячной аренды."
+                description: "Ультра-роскошные апартаменты 2+1 всего в 50 метрах от пляжа Клеопатры с завораживающим видом на море и крепость Аланьи. Полностью оборудованная кухня, кондиционер, высокоскоростной интернет и бассейн. Подходит для помесячной аренды."
             },
             de: {
-                title: "Luxus 2+1 Ferienwohnung 50m zum Kleopatra-Strand – Tages- & Monatsmiete",
-                rentalTypeBadge: "Täglich / Monatlich",
+                title: "Luxus 2+1 Ferienwohnung 50m zum Kleopatra-Strand – Monatsmiete",
+                rentalTypeBadge: "Monatsmiete",
                 location: "Kleopatra-Strand, Alanya",
                 distanceToSea: "50 m",
                 capacity: "4-5 Personen",
                 badge: "Top-Lage",
                 features: ["Pool", "WLAN", "Klimaanlage", "Meerblick", "Balkon", "Aufzug", "Voll möbliert", "24/7 Sicherheit"],
-                description: "Ultra-luxuriöse 2+1-Wohnung nur 50 Meter vom Kleopatra-Strand entfernt, mit bezauberndem Blick auf das Meer und die Burg von Alanya. Voll ausgestattete Küche, Klimaanlage, schnelles Glasfaser-Internet und Poolzugang. Für Tages- und Monatsmiete geeignet."
+                description: "Ultra-luxuriöse 2+1-Wohnung nur 50 Meter vom Kleopatra-Strand entfernt, mit bezauberndem Blick auf das Meer und die Burg von Alanya. Voll ausgestattete Küche, Klimaanlage, schnelles Glasfaser-Internet und Poolzugang. Zur Monatsmiete geeignet."
             }
         }
     },
     {
         id: "ALN-102",
-        rentalType: "daily",
+        rentalType: "monthly",
         roomType: "1+1",
         priceDaily: 1750,
         priceMonthly: 30000,
@@ -74,38 +74,38 @@ const PROPERTIES = [
         featured: true,
         i18n: {
             tr: {
-                title: "Damlataş Merkezde 1+1 Günlük Kiralık Modern Apart Daire",
-                rentalTypeBadge: "Günlük Kiralık",
+                title: "Damlataş Merkezde 1+1 Aylık Kiralık Modern Apart Daire",
+                rentalTypeBadge: "Aylık Kiralık",
                 location: "Damlataş, Alanya Merkez",
                 distanceToSea: "150 Metre",
                 capacity: "2-3 Kişilik",
                 badge: "Fiyat / Performans",
                 features: ["Wi-Fi", "Klima", "Balkon", "Amerikan Mutfak", "TV / Netflix", "Çamaşır Makinesi", "Merkezi Konum"],
-                description: "Alanya Damlataş Mağarası ve plajına yürüme mesafesinde. Çarşıya, restoranlara ve eğlence merkezlerine 2 dakika. Tatiliniz için temiz, hijyenik ve tüm eşyaları eksiksiz 1+1 günlük kiralık daire."
+                description: "Alanya Damlataş Mağarası ve plajına yürüme mesafesinde. Çarşıya, restoranlara ve eğlence merkezlerine 2 dakika. Tatiliniz için temiz, hijyenik ve tüm eşyaları eksiksiz 1+1 aylık kiralık daire."
             },
             en: {
-                title: "Modern 1+1 Daily Rental Apartment in Central Damlataş",
-                rentalTypeBadge: "Daily Rental",
+                title: "Modern 1+1 Monthly Rental Apartment in Central Damlataş",
+                rentalTypeBadge: "Monthly Rental",
                 location: "Damlataş, Central Alanya",
                 distanceToSea: "150 m",
                 capacity: "2-3 Guests",
                 badge: "Great Value",
                 features: ["Wi-Fi", "A/C", "Balcony", "Open Kitchen", "TV / Netflix", "Washing Machine", "Central Location"],
-                description: "Within walking distance of Damlataş Cave and beach. Just 2 minutes to the bazaar, restaurants and entertainment. A clean, hygienic and fully furnished 1+1 daily rental apartment for your holiday."
+                description: "Within walking distance of Damlataş Cave and beach. Just 2 minutes to the bazaar, restaurants and entertainment. A clean, hygienic and fully furnished 1+1 monthly rental apartment for your holiday."
             },
             ru: {
-                title: "Современные апартаменты 1+1 в центре Дамлаташ — посуточная аренда",
-                rentalTypeBadge: "Посуточная аренда",
+                title: "Современные апартаменты 1+1 в центре Дамлаташ — помесячная аренда",
+                rentalTypeBadge: "Помесячная аренда",
                 location: "Дамлаташ, центр Аланьи",
                 distanceToSea: "150 м",
                 capacity: "2-3 гостя",
                 badge: "Цена / качество",
                 features: ["Wi-Fi", "Кондиционер", "Балкон", "Открытая кухня", "ТВ / Netflix", "Стиральная машина", "Центр"],
-                description: "В пешей доступности от пещеры Дамлаташ и пляжа. Всего 2 минуты до базара, ресторанов и развлечений. Чистые, гигиеничные и полностью меблированные апартаменты 1+1 для посуточной аренды на время отдыха."
+                description: "В пешей доступности от пещеры Дамлаташ и пляжа. Всего 2 минуты до базара, ресторанов и развлечений. Чистые, гигиеничные и полностью меблированные апартаменты 1+1 для помесячной аренды на время отдыха."
             },
             de: {
-                title: "Moderne 1+1 Ferienwohnung im Zentrum von Damlataş – Tagesmiete",
-                rentalTypeBadge: "Tagesmiete",
+                title: "Moderne 1+1 Ferienwohnung im Zentrum von Damlataş – Monatsmiete",
+                rentalTypeBadge: "Monatsmiete",
                 location: "Damlataş, Zentrum Alanya",
                 distanceToSea: "150 m",
                 capacity: "2-3 Personen",
@@ -171,7 +171,7 @@ const PROPERTIES = [
     },
     {
         id: "ALN-104",
-        rentalType: "daily",
+        rentalType: "monthly",
         roomType: "3+1",
         priceDaily: 4500,
         priceMonthly: 85000,
@@ -183,7 +183,7 @@ const PROPERTIES = [
         i18n: {
             tr: {
                 title: "Kalesi & Deniz Manzaralı 3+1 Penthouse Dubleks Apart",
-                rentalTypeBadge: "Günlük / Aylık VIP",
+                rentalTypeBadge: "Aylık VIP",
                 location: "Alanya Merkez / Çarşı",
                 distanceToSea: "100 Metre",
                 capacity: "6 Kişilik",
@@ -193,7 +193,7 @@ const PROPERTIES = [
             },
             en: {
                 title: "3+1 Penthouse Duplex with Castle & Sea View",
-                rentalTypeBadge: "Daily / Monthly VIP",
+                rentalTypeBadge: "Monthly VIP",
                 location: "Alanya Center / Bazaar",
                 distanceToSea: "100 m",
                 capacity: "6 Guests",
@@ -203,7 +203,7 @@ const PROPERTIES = [
             },
             ru: {
                 title: "Пентхаус-дуплекс 3+1 с видом на крепость и море",
-                rentalTypeBadge: "Посуточно / Помесячно VIP",
+                rentalTypeBadge: "Помесячно VIP",
                 location: "Центр Аланьи / базар",
                 distanceToSea: "100 м",
                 capacity: "6 гостей",
@@ -213,7 +213,7 @@ const PROPERTIES = [
             },
             de: {
                 title: "3+1 Penthouse-Maisonette mit Burg- & Meerblick",
-                rentalTypeBadge: "Täglich / Monatlich VIP",
+                rentalTypeBadge: "Monatlich VIP",
                 location: "Zentrum Alanya / Basar",
                 distanceToSea: "100 m",
                 capacity: "6 Personen",
@@ -225,7 +225,7 @@ const PROPERTIES = [
     },
     {
         id: "ALN-105",
-        rentalType: "daily",
+        rentalType: "monthly",
         roomType: "1+1",
         priceDaily: 1500,
         priceMonthly: 26000,
@@ -236,38 +236,38 @@ const PROPERTIES = [
         featured: false,
         i18n: {
             tr: {
-                title: "Mahmutlar Sahilde Denize Sıfır 1+1 Günlük ve Aylık Apart",
-                rentalTypeBadge: "Günlük Kiralık",
+                title: "Mahmutlar Sahilde Denize Sıfır 1+1 Aylık Kiralık Apart",
+                rentalTypeBadge: "Aylık Kiralık",
                 location: "Mahmutlar, Alanya",
                 distanceToSea: "Denize Sıfır",
                 capacity: "2-4 Kişilik",
                 badge: "Denize Sıfır",
                 features: ["Deniz Manzarası", "Açık Havuz", "Wi-Fi", "Klima", "Balkon", "Jeneratör", "Asansör"],
-                description: "Mahmutlar Sahil caddesinde, alt geçitle doğrudan plaja bağlanan site içerisinde 1+1 tam eşyalı günlük kiralık apart. Tatilciler için ekonomik ve konforlu."
+                description: "Mahmutlar Sahil caddesinde, alt geçitle doğrudan plaja bağlanan site içerisinde 1+1 tam eşyalı aylık kiralık apart. Tatilciler için ekonomik ve konforlu."
             },
             en: {
-                title: "Beachfront 1+1 Daily & Monthly Apartment in Mahmutlar",
-                rentalTypeBadge: "Daily Rental",
+                title: "Beachfront 1+1 Monthly Apartment in Mahmutlar",
+                rentalTypeBadge: "Monthly Rental",
                 location: "Mahmutlar, Alanya",
                 distanceToSea: "Beachfront",
                 capacity: "2-4 Guests",
                 badge: "Beachfront",
                 features: ["Sea View", "Outdoor Pool", "Wi-Fi", "A/C", "Balcony", "Generator", "Elevator"],
-                description: "A furnished 1+1 daily rental in a complex on Mahmutlar seaside avenue, connected directly to the beach via an underpass. Economical and comfortable for holidaymakers."
+                description: "A furnished 1+1 monthly rental in a complex on Mahmutlar seaside avenue, connected directly to the beach via an underpass. Economical and comfortable for holidaymakers."
             },
             ru: {
-                title: "1+1 на первой линии моря в Махмутларе — посуточно и помесячно",
-                rentalTypeBadge: "Посуточная аренда",
+                title: "1+1 на первой линии моря в Махмутларе — помесячно",
+                rentalTypeBadge: "Помесячная аренда",
                 location: "Махмутлар, Аланья",
                 distanceToSea: "Первая линия",
                 capacity: "2-4 гостя",
                 badge: "Первая линия моря",
                 features: ["Вид на море", "Открытый бассейн", "Wi-Fi", "Кондиционер", "Балкон", "Генератор", "Лифт"],
-                description: "Меблированные апартаменты 1+1 для посуточной аренды в комплексе на приморской улице Махмутлара, с прямым выходом к пляжу через подземный переход. Экономично и комфортно для отдыхающих."
+                description: "Меблированные апартаменты 1+1 для помесячной аренды в комплексе на приморской улице Махмутлара, с прямым выходом к пляжу через подземный переход. Экономично и комфортно для отдыхающих."
             },
             de: {
-                title: "1+1 Ferienwohnung direkt am Strand in Mahmutlar – Tages- & Monatsmiete",
-                rentalTypeBadge: "Tagesmiete",
+                title: "1+1 Ferienwohnung direkt am Strand in Mahmutlar – Monatsmiete",
+                rentalTypeBadge: "Monatsmiete",
                 location: "Mahmutlar, Alanya",
                 distanceToSea: "Direkt am Strand",
                 capacity: "2-4 Personen",

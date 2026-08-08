@@ -81,8 +81,7 @@ function renderProperties(properties) {
 
                     <div class="card-price-row">
                         <div class="price-box">
-                            <span class="price-val">${fmtPrice(prop.priceDaily)} <span>${T.perDaily}</span></span>
-                            <span style="font-size: 0.78rem; color: var(--text-muted);">${T.monthlyPrefix} ${fmtPrice(prop.priceMonthly)}</span>
+                            <span class="price-val">${fmtPrice(prop.priceMonthly)} <span>${T.perDaily}</span></span>
                         </div>
                     </div>
 
@@ -190,8 +189,6 @@ function filterByCategory(category) {
     activeCategory = category;
     if (category === 'all') {
         currentProperties = [...PROPERTIES];
-    } else if (category === 'daily') {
-        currentProperties = PROPERTIES.filter(p => p.rentalType === 'daily');
     } else if (category === 'monthly') {
         currentProperties = PROPERTIES.filter(p => p.rentalType === 'monthly');
     } else if (['1+1', '2+1', '3+1'].includes(category)) {
@@ -211,7 +208,7 @@ function applyAdvancedFilters() {
         const matchRental = (rentalType === 'all') || (p.rentalType === rentalType);
         const matchRoom = (roomType === 'all') || (p.roomType === roomType);
         const matchLoc = (locationQuery === '') || d.location.toLowerCase().includes(locationQuery) || d.title.toLowerCase().includes(locationQuery);
-        const matchPrice = (maxPrice === 0) || (p.priceDaily <= maxPrice);
+        const matchPrice = (maxPrice === 0) || (p.priceMonthly <= maxPrice);
         return matchRental && matchRoom && matchLoc && matchPrice;
     });
 
@@ -266,8 +263,8 @@ function openPropertyModal(id) {
 
             <div style="background: rgba(15, 23, 42, 0.7); padding: 1rem; border-radius: 14px; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
                 <div>
-                    <span style="font-size: 0.8rem; color: var(--text-muted);">${T.dailyPrice}</span>
-                    <h3 style="color: #fff; font-size: 1.5rem; font-family: 'Outfit';">${fmtPrice(prop.priceDaily)} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-muted);">${T.perDay}</span></h3>
+                    <span style="font-size: 0.8rem; color: var(--text-muted);">${T.monthlyPrice}</span>
+                    <h3 style="color: #fff; font-size: 1.5rem; font-family: 'Outfit';">${fmtPrice(prop.priceMonthly)} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-muted);">${T.perMonth}</span></h3>
                 </div>
                 <div style="text-align: right;">
                     <span style="font-size: 0.8rem; color: var(--text-muted);">${T.monthlyPrice}</span>
